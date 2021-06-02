@@ -9,23 +9,24 @@
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
-\usepackage{/home/thill/Documents/lectures/ros_workshop/ros_module}
+\usepackage{/home/thill/Documents/lectures/cpp_workshop/modules/cpp_lectures}
 
 \newcommand{\MNUM}{1\hspace{2mm}} % Module number
 \newcommand{\TNUM}{---\hspace{2mm}} % Topic number - single topic for now
 \newcommand{\moduletitle}{Introduction to C++} % Titles and Stuff
 %\newcommand{\topictitle}{---} 
 
-\newcommand{\sectiontitleI}{Workshop Structure} % More Titles and Stuff
-\newcommand{\sectiontitleII}{A C++ Legacy}
-\newcommand{\sectiontitleIII}{Programming with Micro Controllers}
-\newcommand{\sectiontitleIV}{Tutorial 1 - Hello World}
+\newcommand{\sectiontitleI}{Course Structure} % More Titles and Stuff
+\newcommand{\sectiontitleII}{Course Topics - Learning Objectives}
+\newcommand{\sectiontitleIII}{Anatomy of A Computer}
+\newcommand{\sectiontitleIV}{The C++ Programming Language}
+\newcommand{\sectiontitleV}{Tutorial 1 - Hello World}
 
 \setbeamercolor{title in head/foot}{fg=TTUgold} % this needs work...
 
 
 \title{GSET - Programming with Mr. Hill}
-\author{Tristan Hill\vspc Tennessee Technological University}
+\author{Tristan Hill\vspc \hspc Tennessee Technological University \hspc}
 \date{Summer 2021}
 
 
@@ -46,6 +47,7 @@
 		\item \hyperlink{sectionII}{\sectiontitleII} \vspc % Section II
 		\item \hyperlink{sectionIII}{\sectiontitleIII} \vspc %Section III
 		\item \hyperlink{sectionIV}{\sectiontitleIV} \vspc %Section IV	
+		\item \hyperlink{sectionV}{\sectiontitleV} \vspc %Section V
 	
 	\end{itemize}
 
@@ -56,54 +58,128 @@
 	% Section I - Frame I
 	\begin{frame}[label=sectionI,containsverbatim] \small
 		\frametitle{\sectiontitleI}
-
-		asdf
-
+		\underline{\large Lectures and Assignments}
+		\begin{itemize}
+			\item This programming course is organized into topic based modules. Each module contains a lecture with slides, and a tutorial with instructions and example code.  
+			
+			\item The lectures will be held in class, and after each lecture we will work on the tutorials as a group. After completing each tutorial you will write a short summary (README) documenting your program and the work you have done.
+			
+			\item In addition to the tutorials, programming challenges will be assigned throughout the course to test the skills you have acquired. After completing each programming assignment you will write a short report documenting your program and the work you have done.  
+		\end{itemize}
 	\end{frame}
-
 
 	% Section I - Frame II
 	\begin{frame} \small
 		\frametitle{\sectiontitleI}
-
+		\underline{\large Exams and Grading}	
+		\begin{itemize}
+			\item You will take a midterm and a final exam in class, and each exam will have a paper and programming component.
+			
+			\item Your final grade comes from participation in the tutorials (25\%), completion of the programming challenges(25\%), as well as the two graded exams.     
+			
+			\item See the published syllabus for the complete course details and policies. 
+			
+		\end{itemize}	
 	\end{frame}
+
+	% Section I - Frame III
+	\begin{frame} \small
+		\frametitle{\sectiontitleI}
+		\underline{\large Collaboration and Group Work}	
+		\begin{itemize}
+			\item Discussion between peers and the instructors is encouraged for all assignments except during the exams.
+			
+			\item Some assignments may be completed as a group, but some must be completed as individuals. Ask the instructor if you are unsure. 
+			
+			\item {\BL Sharing of code between students or is \underline{not allowed} unless the activity is designated as a group assignment by the instructor. \vspace{2mm} \\ The Tennessee Technological University academic misconduct policy clearly states that all submitted work must be original and authored by the student(s) submitting the assignment.} 		
+		\end{itemize}	
+	\end{frame}
+
+
 
 \section{\sectiontitleII}
 
 	% Section II - Frame I
-	\frame[containsverbatim]{ \small
+	\begin{frame}[label=sectionII,containsverbatim] \small
 		\frametitle{\sectiontitleII}
-		
-  \includegraphics[scale=.35]{turtlebot_family.png}
+ 		During this course we are going to learn about structured computer programming and the C++ Language. The following topics will be covered.
+		\begin{itemize}
+			
+			\item Variables, Expressions, and Assignment
+			
+			\item Basic Input and Output Operations
+			
+			\item Computer Memory and Common Data Structures
+			
+			\item Logic and Selection Statements 
+			
+			\item Looping and Iteration 
+			
+			\item Introduction to Object Oriented Programming  
+			
+		\end{itemize}
 
 
-}
+	\end{frame}
 
 \section{\sectiontitleIII}
 
 	% Section II - Frame I
 	\frame{ \small
 		\frametitle{\sectiontitleIII}
-	
-
-}
-
+		
+		\underline{\large Major Components}
+		\begin{itemize}
+			
+			\item
+			\item 
+			\item 
+			\item  
+			\item
+			\item	
+			
+		\end{itemize}
+	}
 
 \section{\sectiontitleIV}	
-	% Section V - Frame I
-	            \begin{frame}[label=sectionIV] \small
+	% Section IV - Frame I
+	\begin{frame}[label=sectionIV] \small
 		\frametitle{\sectiontitleIV}    
+		
+		\underline{A Few Questions}
+		\setbeamertemplate{itemize items}[triangle]
+		\begin{itemize}
+			
+			\item What is a computer program? What is computer programming?
+			
+			\item Have you ever learned about programming before? If so what languages did you use, and where did you learn about them? What types of problems did you solve?
+			
+			\item Have you ever learned about C++? Why is C++ important for scientists and engineers? 
+				\begin{itemize}
+					\item 
+					\item
+					\item
+				\end{itemize}
+			
+			
+		\end{itemize}
+	\end{frame}
+
+\section{\sectiontitleV}	
+	% Section V - Frame I
+	            \begin{frame}[label=sectionV] \small
+		\frametitle{\sectiontitleV}    
 	
  \setbeamertemplate{itemize items}[triangle]
                 \begin{itemize}
 
-					\item {\bf Overview:} In the first tutorial, you are going to install the Arduino environment on your computer and write your first program, {\it Hello World}.  		
+					\item {\bf Overview:} In the first tutorial you are going to choose your programming environment on your computer and write your first program, {\it Hello World}.  		
 
-					\item {\bf Assignment:} Complete the tutorial in the document {\it tutorial\MNUM\_introduction\_cpp.pdf } on ilearn. You must be able to display a message from the board to the the serial monitor or terminal.
+					\item {\bf Assignment:} Complete the tutorial in the document {\it tutorial\MNUM\_introduction\_cpp.pdf } on ilearn. You must be able to display a custom message from your program to the the terminal or standard output.
                     
-                    \item {\bf Deliverable:} Write a one to two paragraph summary of what you accomplished and what you struggled with the most. 
+                    \item {\bf Deliverable:} Write a one to two paragraph summary of what you accomplished and what you struggled with the most. Include a screen shot of the output of your program.   
     
-                    \item {\bf Next Week:} After completion of Module 1, you are ready to learn about ... \vspc
+                    \item {\bf Next Week:} After completion of Module 1, you are ready to learn about Variables, Expressions and Assignment. \vspc
                     
        
                 \end{itemize}
