@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  29 MAY 2021 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  2 JUN 2021 07:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**tutorial5_turtlebot3_simulator.tex
-(./tutorial5_turtlebot3_simulator.tex
+**tutorial0_hello_world.tex
+(./tutorial0_hello_world.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -23,7 +23,7 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/home/thill/Documents/lectures/ros_workshop/ros_tutorial.sty
+(/home/thill/Documents/lectures/cpp_workshop/modules/cpp_tutorial.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -1612,6 +1612,12 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 
@@ -1702,11 +1708,11 @@ Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-runsystem(uname -s > "tutorial5_turtlebot3_simulator.w18")...executed.
+runsystem(uname -s > "tutorial0_hello_world.w18")...executed.
 
 
-(./tutorial5_turtlebot3_simulator.w18)
-runsystem(rm -- "tutorial5_turtlebot3_simulator.w18")...executed.
+(./tutorial0_hello_world.w18)
+runsystem(rm -- "tutorial0_hello_world.w18")...executed.
 
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
@@ -1733,7 +1739,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks46
 \c@listing=\count350
 )
-runsystem(mkdir -p _minted-tutorial5_turtlebot3_simulator)...executed.
+runsystem(mkdir -p _minted-tutorial0_hello_world)...executed.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1833,23 +1839,22 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 89.
+(hyperref)                setting the option has no effect on input line 90.
 
-Package hyperref Info: Option `unicode' set `false' on input line 89.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 89.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 89.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 89.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 89.
-Package hyperref Info: Option `colorlinks' set `true' on input line 89.
+Package hyperref Info: Option `unicode' set `false' on input line 90.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 90.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 90.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 90.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 90.
+Package hyperref Info: Option `colorlinks' set `true' on input line 90.
 \mybox=\box103
 )
-runsystem(which pygmentize && touch tutorial5_turtlebot3_simulator.aex)...execu
-ted.
+runsystem(which pygmentize && touch tutorial0_hello_world.aex)...executed.
 
-runsystem(rm tutorial5_turtlebot3_simulator.aex)...executed.
+runsystem(rm tutorial0_hello_world.aex)...executed.
 
- (./tutorial5_turtlebot3_simulator.aux)
-\openout1 = `tutorial5_turtlebot3_simulator.aux'.
+ (./tutorial0_hello_world.aux)
+\openout1 = `tutorial0_hello_world.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -1953,124 +1958,80 @@ LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
 
-(./tutorial5_turtlebot3_simulator.out) (./tutorial5_turtlebot3_simulator.out)
+(./tutorial0_hello_world.out) (./tutorial0_hello_world.out)
 \@outlinefile=\write7
-\openout7 = `tutorial5_turtlebot3_simulator.out'.
+\openout7 = `tutorial0_hello_world.out'.
 
-<turtlebot3_family.png, id=10, 392.46625pt x 299.1175pt>
-File: turtlebot3_family.png Graphic file (type png)
-<use turtlebot3_family.png>
-Package pdftex.def Info: turtlebot3_family.png  used on input line 29.
-(pdftex.def)             Requested size: 196.23264pt x 149.55838pt.
-<turtlebot3_simulations.png, id=12, 478.78876pt x 447.6725pt>
-File: turtlebot3_simulations.png Graphic file (type png)
-<use turtlebot3_simulations.png>
-Package pdftex.def Info: turtlebot3_simulations.png  used on input line 29.
-(pdftex.def)             Requested size: 167.57857pt x 156.68771pt.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 34.
+<charlie_robot_sideview.png, id=10, 182.18062pt x 231.86626pt>
+File: charlie_robot_sideview.png Graphic file (type png)
+<use charlie_robot_sideview.png>
+Package pdftex.def Info: charlie_robot_sideview.png  used on input line 30.
+(pdftex.def)             Requested size: 109.3092pt x 139.12082pt.
+<blue_marble.jpg, id=12, 722.7pt x 722.7pt>
+File: blue_marble.jpg Graphic file (type jpg)
+<use blue_marble.jpg>
+Package pdftex.def Info: blue_marble.jpg  used on input line 30.
+(pdftex.def)             Requested size: 130.08038pt x 130.08038pt.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./turtlebot3_family.png> <
-./turtlebot3_simulations.png>]
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/default-pyg-prefix.pygstyle)
-(./_minted-tutorial5_turtlebot3_simulator/default.pygstyle)
-(./_minted-tutorial5_turtlebot3_simulator/EC63CB12C624BAB130B280D15A966F72EF458
-288B2FD3AB848E19AE62EA50ED3.pygtex
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./charlie_robot_sideview.p
+ng> <./blue_marble.jpg>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 79.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-))
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
+)
+\openout3 = `tutorial0_hello_world.pyg'.
 
 
-(./_minted-tutorial5_turtlebot3_simulator/EDDB005E9AD6C316B5E6D0FDD8536BE7EF458
-288B2FD3AB848E19AE62EA50ED3.pygtex)
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/B0F6DE7930B753271A4D7AD1771BE095EF458
-288B2FD3AB848E19AE62EA50ED3.pygtex)
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/8190FF6BD3D0D16607FE6921338F36A0EF458
-288B2FD3AB848E19AE62EA50ED3.pygtex) [2]
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/7BB7571DC02F7B951F67FA34768B7B60EF458
-288B2FD3AB848E19AE62EA50ED3.pygtex)
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/D7E59A03BC6059C3EB1C125BF3084B7EEF458
-288B2FD3AB848E19AE62EA50ED3.pygtex)
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/AB5A59541BE5004283F6964C51550A8FEF458
-288B2FD3AB848E19AE62EA50ED3.pygtex)
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/9BA4E60C1C6F04F6555720E322779398EF458
-288B2FD3AB848E19AE62EA50ED3.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+(./_minted-tutorial0_hello_world/default-pyg-prefix.pygstyle)
+(./_minted-tutorial0_hello_world/default.pygstyle)
+(./_minted-tutorial0_hello_world/079390106EAAD69F8FE46A4729BDE1E48CA661395EDBE1
+BD4498E2DEF65E0223.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/4FAA1F9CC1FA16B4E438D3699FC18D52EF458
-288B2FD3AB848E19AE62EA50ED3.pygtex)
-\openout3 = `tutorial5_turtlebot3_simulator.pyg'.
-
-
-(./_minted-tutorial5_turtlebot3_simulator/026B77791AB06721C01309A68825A4B8EF458
-288B2FD3AB848E19AE62EA50ED3.pygtex)
-Underfull \hbox (badness 10000) in paragraph at lines 131--140
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
- (./tutorial5_turtlebot3_simulator.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
-Package rerunfilecheck Info: File `tutorial5_turtlebot3_simulator.out' has not 
-changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+ (./tutorial0_hello_world.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package rerunfilecheck Info: File `tutorial0_hello_world.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-runsystem(rm tutorial5_turtlebot3_simulator.pyg)...executed.
+runsystem(rm tutorial0_hello_world.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 33831 strings out of 492982
- 657005 string characters out of 6134897
- 768756 words of memory out of 5000000
- 36830 multiletter control sequences out of 15000+600000
- 544827 words of font info for 59 fonts, out of 8000000 for 9000
+ 33969 strings out of 492982
+ 655624 string characters out of 6134897
+ 777051 words of memory out of 5000000
+ 36970 multiletter control sequences out of 15000+600000
+ 546676 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,6n,69p,10379b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,6n,69p,10370b,1375s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/
 cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfsl1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on tutorial5_turtlebot3_simulator.pdf (3 pages, 225757 bytes).
+fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1440.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sftt1200.pfb>
+Output written on tutorial0_hello_world.pdf (3 pages, 465242 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

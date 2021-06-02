@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+		\PYG{n}{Hello} \PYG{n}{GSET} \PYG{n}{World}
+
+		\PYG{p}{.}\PYG{p}{.}\PYG{p}{.}\PYG{n}{Program} \PYG{n}{finished} \PYG{n}{with} \PYG{n}{exit} \PYG{n}{code} \PYG{l+m+mi}{0}
+		\PYG{n}{Press} \PYG{n}{ENTER} \PYG{n}{to} \PYG{n}{exit} \PYG{n}{console}\PYG{p}{.}
+\end{Verbatim}

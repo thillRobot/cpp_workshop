@@ -34,13 +34,13 @@
 
 \usepackage{listings}
 \lstset{frame=tb,
-  language=Java,
+  language=C++,
   aboveskip=3mm,
   belowskip=3mm,
   showstringspaces=false,
   columns=flexible,
   basicstyle={\small\ttfamily},
-  numbers=none,
+  numbers=left,
   numberstyle=\tiny\color{gray},
   keywordstyle=\color{blue},
   commentstyle=\color{dkgreen},
@@ -49,6 +49,7 @@
   breakatwhitespace=true,
   tabsize=3
 }
+
 
 \usepackage{minted}
 \setminted[text]{
@@ -103,11 +104,11 @@ bgcolor=mygray
 \definecolor{friendlybg}{HTML}{f0f0f0}
 
 % color commands
-\newcommand{\R}{\color{red}}
-\newcommand{\B}{\color{blue}}
+\newcommand{\RD}{\color{red}}
+\newcommand{\BL}{\color{blue}}
 \newcommand{\BR}{\color{mybrown}}
-\newcommand{\K}{\color{black}}
-\newcommand{\G}{\color{mygreen}}
+\newcommand{\BK}{\color{black}}
+\newcommand{\GR}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
 \newcommand{\OR}{\color{TTU}}
@@ -153,8 +154,8 @@ bgcolor=mygray
 \newcommand{\T}{\raisebox{-0.1em}{T}}
 \newcommand{\TKey}{\keystroke{\T}}
 
-\newcommand{\C}{\raisebox{-0.1em}{C}}
-\newcommand{\CKey}{\keystroke{\C}}
+
+\newcommand{\CKey}{\keystroke{\raisebox{-0.1em}{C}}}
 
 \newcommand{\CTRL}{\raisebox{-0.1em}{Ctrl}}
 \newcommand{\CTRLKey}{\keystroke{\CTRL}}
