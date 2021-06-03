@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Types of Numbers}{3}{0}{1}
+\beamer@sectionintoc {2}{Variables and Type}{4}{0}{2}
+\beamer@sectionintoc {3}{Assignment and Memory}{6}{0}{3}
+\beamer@sectionintoc {4}{A {\it Riddle} }{7}{0}{4}

@@ -1,0 +1,165 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+% GSET Summer 2021 - Tennessee Technological University
+% Tristan Hill - June 01, 2021
+% Turtorial 1 - Hello World
+
+\documentclass[12pt]{article}
+
+% Custom Preamble
+\usepackage{/home/thill/Documents/lectures/cpp_workshop/modules/cpp_tutorial} 
+
+% Title and Misc
+\newcommand{\MNUM}{0} %Module Number
+\newcommand{\MNAME}{Introduction to C++} %Module Name
+\newcommand{\TNAME}{Hello World} %Tutorial Name
+\pagestyle{myheadings}
+\markright{{\large GSET - Programming with Mr. Hill}}
+
+\begin{document}
+
+\thispagestyle{plain}
+
+\begin{center}
+   {\bf \large GSET - Programming with Mr. Hill - Summer 2021} \vspace{5mm}\\
+   {\bf \Large \MNAME \hspc -  Tutorial\hspc\MNUM\hspc - \TNAME}\vspace{3mm}\\
+   
+\end{center}
+
+ \hspace*{3cm}\includegraphics[scale=.6]{charlie_robot_sideview.png} \hspace*{1cm}\includegraphics[scale=.18]{blue_marble.jpg}
+
+
+\begin{description}[labelindent=1cm]
+	
+	\item[\textbf{\underline{Overview:}}] \hfill \vspace{3mm}\\
+	Traditionally, the first program we write when learning a new language is called {\it Hello World}.
+	
+	\item[\textbf{\underline{System Requirements:}}] \hfill \vspace{0mm}
+
+\begin{itemize}
+	\item {\bf Computer}: A computer is required to complete this tutorial. Any OS should work.
+	\item {\bf Internet:} Your computer must be connected to the internet to proceed. It is a good idea to update the system before you begin. 
+\end{itemize}
+
+	\item[\textbf{\underline{Disclaimer:}}] \hfill \vspace{0mm}
+	
+	\begin{itemize}
+
+		\item {\GR\underline{\bf Programming Experience:}} Everyone is different and has a different level of computer experience. This is expected. Do not worry if you feel behind or ahead of your peers.
+		 
+	\end{itemize}
+
+\item[\textbf{\underline{Part 1 - Programming Environment:}}] \hfill \vspace{0mm}
+
+Choose your programming environment before you get started. You have several options.
+
+Recommended Option:
+
+\begin{itemize}
+
+	\item Online C++ Compiler - \href{https://www.onlinegdb.com/online\_c++\_compiler}{OnlineGDB} 
+
+\end{itemize}	 
+	Advanced Options:
+\begin{itemize}
+	\item GCC - \href{https://sourceforge.net/projects/mingw/}{MinGW}
+		
+	\item Mac - (Xcode)  
+    
+    \item MS - \href{https://visualstudio.microsoft.com/}{Visual Studio}
+    
+\end{itemize}	
+\newpage
+
+\item[\textbf{\underline{Part 2 - The C++ Code:}}] \hfill \vspace{0mm}
+\begin{enumerate}
+    \item You have been given the following example code. Study the program before running it.
+	%\begin{minted}{cpp}
+	\begin{lstlisting}
+	/********************************************************************
+	
+	GSET - Summer 2021 
+	Programming with Mr. Hill 
+	Hello World - June 2, 2021
+	
+	*********************************************************************/
+	
+	#include <stdio.h>
+	
+	int main()
+	{
+		printf("Hello World");
+	
+		return 0;
+	}
+
+	\end{lstlisting}
+	%\end{minted}
+
+	\item	
+Look at each line of the program carefully.
+	\begin{itemize}
+		\item Lines 1-7: Block Comment 
+		\item Lines 9: Pre-Processor Directive
+		\item Lines 11-16: The main function
+		 \begin{itemize}
+		 	\item Line 13: Print to the standard output
+		 	\item Line 15: Complete the main function, return and integer 
+	 	 \end{itemize}
+	\end{itemize}
+	
+\end{enumerate}
+
+	\item[\textbf{\underline{Part 3 - Testing:}}] \hfill \vspace{0mm}
+	\begin{enumerate}
+	
+		\item Now, compile and run the C++ code by pressing the run button.
+		
+		\item	
+		The output of the program is shown in the terminal below.
+		\begin{minted}{cpp} 
+		Hello GSET World
+		
+		...Program finished with exit code 0
+		Press ENTER to exit console.
+		\end{minted}
+	
+		\item Save your code with the download button or use copy and paste. You can view and edit the code in any text editor. Also, save a copy of the program output for your tutorial summary. 
+
+	\end{enumerate}
+
+\item[\textbf{\underline{Tutorial Complete:}}] \hfill \vspace{3mm}\\ 
+	Congratulations, after completing {\it Tutorial 1 - Hello World}, you have begun learning to program in C++! \\
+
+
+\newpage
+\item[\textbf{\underline{Tutorial Summary:}}] \hfill \vspace{3mm}\\ 
+Write a brief summary of what you accomplished and what you struggled with the most. 
+
+Include the following items in the summary:
+\begin{itemize}
+
+\item a copy of the output of your program
+\item a description of what the program does and how to use it
+
+\end{itemize}
+
+
+\item[\textbf{\underline{Submission on Teams:}}] \hfill \vspace{3mm}\\ 
+Use the appropriate shared folder on Teams to submit your program and summary. Submit the fol1owing items with your TNTech username in the filenames as shown below. \vspace{0mm}\\
+
+\underline{Files for Tutorial 1 (TNTech Username : twhill21)}
+
+\begin{itemize}
+
+\item Tutorial Summary: \textbf{ twhill21\_summary0.txt}
+
+\item C++ Source Code: \textbf{ twhill21\_tutorial0.cpp}
+
+\end{itemize}
+
+
+\end{description}
+\end{document}
+

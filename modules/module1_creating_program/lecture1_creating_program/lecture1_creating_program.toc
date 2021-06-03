@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Learning to Program}{3}{0}{1}
+\beamer@sectionintoc {2}{Choosing a Language}{5}{0}{2}
+\beamer@sectionintoc {3}{C++ Program Structure}{8}{0}{3}
+\beamer@sectionintoc {4}{Compiling and Linking Source}{9}{0}{4}
+\beamer@sectionintoc {5}{Up Next ...}{11}{0}{5}

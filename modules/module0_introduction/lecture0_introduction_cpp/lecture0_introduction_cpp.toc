@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Course Structure}{3}{0}{1}
+\beamer@sectionintoc {2}{Course Topics - Learning Objectives}{6}{0}{2}
+\beamer@sectionintoc {3}{Anatomy of A Computer}{7}{0}{3}
+\beamer@sectionintoc {4}{The C++ Programming Language}{8}{0}{4}
+\beamer@sectionintoc {5}{Tutorial 0\hspace {2mm}- Hello World}{9}{0}{5}
