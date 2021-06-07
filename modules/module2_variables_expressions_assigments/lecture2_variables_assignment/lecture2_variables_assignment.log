@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2021.3.1)  7 JUN 2021 07:00
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2021.3.1)  7 JUN 2021 07:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lecture2_variables_expressions_assignments.tex
-(./lecture2_variables_expressions_assignments.tex
+**lecture2_variables_assignment.tex
+(./lecture2_variables_assignment.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1946,7 +1946,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 31.
 
-(./lecture2_variables_expressions_assignments.aux
+(./lecture2_variables_assignment.aux
 
 LaTeX Warning: Label `sectionI<1>' multiply defined.
 
@@ -1954,7 +1954,7 @@ LaTeX Warning: Label `sectionI<1>' multiply defined.
 LaTeX Warning: Label `sectionI' multiply defined.
 
 )
-\openout1 = `lecture2_variables_expressions_assignments.aux'.
+\openout1 = `lecture2_variables_assignment.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -2031,10 +2031,9 @@ LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
 
-(./lecture2_variables_expressions_assignments.out)
-(./lecture2_variables_expressions_assignments.out)
+(./lecture2_variables_assignment.out) (./lecture2_variables_assignment.out)
 \@outlinefile=\write6
-\openout6 = `lecture2_variables_expressions_assignments.out'.
+\openout6 = `lecture2_variables_assignment.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 34.
@@ -2104,17 +2103,13 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count363
- (./lecture2_variables_expressions_assignments.nav)
+ (./lecture2_variables_assignment.nav)
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Overfull \vbox (8.23523pt too high) detected at line 38
- []
-
-[1
+) [1
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
@@ -2223,17 +2218,17 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 
 ]
 \tf@nav=\write7
-\openout7 = `lecture2_variables_expressions_assignments.nav'.
+\openout7 = `lecture2_variables_assignment.nav'.
 
 \tf@toc=\write8
-\openout8 = `lecture2_variables_expressions_assignments.toc'.
+\openout8 = `lecture2_variables_assignment.toc'.
 
 \tf@snm=\write9
-\openout9 = `lecture2_variables_expressions_assignments.snm'.
+\openout9 = `lecture2_variables_assignment.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
- (./lecture2_variables_expressions_assignments.aux)
+ (./lecture2_variables_assignment.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 323.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 323.
 
@@ -2243,11 +2238,11 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  38046 strings out of 493007
- 728282 string characters out of 6136720
- 824525 words of memory out of 5000000
+ 728087 string characters out of 6136720
+ 824394 words of memory out of 5000000
  41377 multiletter control sequences out of 15000+600000
  592510 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,19n,73p,10391b,1570s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,19n,73p,10378b,1570s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on lecture2_variables_expressions_assignments.pdf (13 pages).
+Output written on lecture2_variables_assignment.pdf (13 pages).
