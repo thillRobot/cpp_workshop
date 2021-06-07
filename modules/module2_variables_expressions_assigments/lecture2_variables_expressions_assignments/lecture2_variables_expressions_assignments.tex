@@ -21,6 +21,9 @@
 \newcommand{\sectiontitleII}{Variables and Type}
 \newcommand{\sectiontitleIII}{Assignment and Memory}
 \newcommand{\sectiontitleIV}{A {\it Riddle} }
+\newcommand{\sectiontitleV}{A C++ Example }
+
+\newcommand{\btVFill}{\vskip0pt plus 1filll}
 
 \setbeamercolor{title in head/foot}{fg=TTUgold} % this needs work...
 
@@ -45,6 +48,7 @@
 		\item \hyperlink{sectionII}{\sectiontitleII} \vspc % Section II
 		\item \hyperlink{sectionIII}{\sectiontitleIII} \vspc %Section III
 		\item \hyperlink{sectionIV}{\sectiontitleIV} \vspc %Section IV	
+		\item \hyperlink{sectionV}{\sectiontitleV} \vspc %Section V
 	
 	\end{itemize}
 
@@ -64,17 +68,116 @@
 	
 	\end{frame}
 
+	%\section{\sectiontitleII}	
+	
+	% Section I - Frame II
+	\begin{frame}[label=sectionI] \small
+	\frametitle{\sectiontitleI}
+	\bigskip
+	
+	\begin{multicols}{2}
+		\begin{tabular}{|r|r|r|} \hline
+			Binary 	& Decimal 	& Hexadecimal \\ \hline
+			0		& 0			& 0 		\\ \hline	
+			1		& 1			& 1 		\\ \hline
+			10		& 2			& 2 		\\ \hline
+			11		& 3			& 3 		\\ \hline
+			100		& 4			& 4 		\\ \hline
+			& 5			& 5 		\\ \hline
+			& 6			& 6 		\\ \hline
+			& 7			& 7 		\\ \hline
+			& 8			& 8 		\\ \hline
+			& 9			& 9 		\\ \hline
+			& 10		& A 		\\ \hline
+			& 11		& B 		\\ \hline
+		\end{tabular}
+		
+		\begin{tabular}{|r|r|r|} \hline
+			Binary 	& Decimal 	& Hexadecimal \\ \hline
+			& 12		& C 		\\ \hline	
+			& 13		& D 		\\ \hline
+			& 14		& E 		\\ \hline
+			& 15		& F 		\\ \hline
+			& 16		&  		\\ \hline
+			& 17		&  		\\ \hline
+			& 18		&  		\\ \hline
+			& 19		&  		\\ \hline
+			& 20		&  		\\ \hline
+			& 21		&  		\\ \hline
+			& 22	    &  		\\ \hline
+			& 23	    &  		\\ \hline
+		\end{tabular}
+	\end{multicols}
+	
+	\btVFill
+	\tiny{some reference}		
+	
+\end{frame}
+
+% Section I - Frame III
+\begin{frame} \small
+\frametitle{\sectiontitleI}
+\bigskip
+
+\begin{multicols}{2}
+\begin{tabular}{|r|r|r|} \hline
+	Binary 	& Decimal 	& Hex. \\ \hline
+	0		& 0			& 0 		\\ \hline	
+	1		& 1			& 1 		\\ \hline
+	10		& 2			& 2 		\\ \hline
+	11		& 3			& 3 		\\ \hline
+	100		& 4			& 4 		\\ \hline
+	& 			&  		\\ \hline
+	& 			&  		\\ \hline
+	& 			&  		\\ \hline
+	& 			&  		\\ \hline
+	& 			&  		\\ \hline
+	& 		&  		\\ \hline
+	& 		&  		\\ \hline
+\end{tabular}
+
+\begin{tabular}{|r|r|r|} \hline
+	Binary\hspace{18mm} 	& Decimal 	& Hex. \\ \hline
+	0		& 0			& 0 		\\ \hline	
+	1		& 1			& 1 		\\ \hline
+	10		& 2			& 2 		\\ \hline
+	11		& 3			& 3 		\\ \hline
+	100		& 4			& 4 		\\ \hline
+	& 			&  		\\ \hline
+	& 			&  		\\ \hline
+	& 			&  		\\ \hline
+	& 			&  		\\ \hline
+	& 			&  		\\ \hline
+	& 		&  		\\ \hline
+	& 		&  		\\ \hline
+\end{tabular}
+\end{multicols}
+
+\btVFill
+\tiny{some reference}	
+\end{frame}
+
 
 % Section II
 \section{\sectiontitleII}
 
 	% Section II - Frame I
-	\begin{frame}[label=sectionII] \small
+	\begin{frame}[label=sectionII,containsverbatim] \small
 		\frametitle{\sectiontitleII}
+	
+	
+			\begin{lstlisting}
+			
+				int val_A; 
+				
+				int val_B = 25;
+			
+			\end{lstlisting}
 	
 			A variable is a storage container.
 			\begin{itemize}
-				\item 
+				\item In C++ and many other programming languages, each variable has a type defined by the programmer. This is called {\BL Initialization}.
+				\item In some programming languages, the type is hidden or abstracted away from the programmer. 
 			\end{itemize}
 	
 		\end{frame}
@@ -82,17 +185,100 @@
 	% Section II - Frame II
 	\begin{frame} \small
 		\frametitle{\sectiontitleII}
+			
+		Commonly Used Types in C++ and other languages \vspace{5mm}\\
+		\renewcommand*{\arraystretch}{1.5}
+		\begin{tabular}{|c|c|c|c|}\hline			
+			Type & C++ Syntax & Purpose & Examples  \\ \hline
+			Boolean & bool & state, logic & 1,0 (On,Off) \\ \hline 	
+			Integer & int & arithmetic, counting & 1,2,56,-123 \\ \hline
+			Floating Point & float & arithmetic, computation & 57,412.683 \\ \hline
+			Double Float. & double & increased resolution & 124.000234567\\ \hline
+			Character & char & human language & "Hello World"\\ \hline	 			
 	
+		\end{tabular}
+	
+	\btVFill
+	{\tiny \href{https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm}{Tutorials Point},\href{https://en.wikipedia.org/wiki/Single-precision_floating-point_format}{Wikipedia - Floating Point}}
 	\end{frame}	
+
+	% Section II - Frame III
+	\begin{frame} \small
+	\frametitle{\sectiontitleII}
+	
+	Variable type have limited range. \vspace{2mm}\\
+	\renewcommand*{\arraystretch}{1.5}
+	\begin{tabular}{|c|c|c|c|}\hline			
+		Type & C++ Syntax & Min Value & Max Value  \\ \hline
+		Boolean & bool &  0 (Off) & 1 (On) \\ \hline 	
+		Unsigned Integer (4 bytes) & uint &  0 &  \\ \hline
+		Signed Integer (4 bytes) & int &   &  \\ \hline
+		Unsigned Short Int. (2 bytes) & uint &   &  \\ \hline
+		Signed Short Int. (2 bytes) & int &   &  \\ \hline
+		Floating Point (4 bytes) & float &  & \\ \hline
+		Double Float. (8 Bytes) & double &  &\\ \hline
+		Character & char &  &\\ \hline	 			
+		
+	\end{tabular}
+	
+	\btVFill
+	{\tiny \href{https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm}{Tutorials Point}}
+\end{frame}
 
 
 % Section III
 \section{\sectiontitleIII}
 
-	% Section III - Frame I
-	\begin{frame}[label=sectionIII,containsverbatim] \small
-		\frametitle{\sectiontitleIII}
 
+	% Section III - Frame I
+	\begin{frame}[label=sectionIII] \small
+	\frametitle{\sectiontitleIII}
+	
+	\includegraphics[scale=.15]{transistor_pnp}
+	\includegraphics[scale=.25]{MOSFET_Structure.png}
+	
+	\btVFill
+	\href{https://learn.sparkfun.com/tutorials/transistors/all}{Sparkfun - Transistor} \\
+	\href{https://en.wikipedia.org/wiki/Transistor}{Wikipedia - Transistor}
+	
+	\end{frame}
+
+	% Section III - Frame II
+	\begin{frame} \small
+		\frametitle{\sectiontitleIII}
+		
+		\includegraphics[scale=.20]{DRAM_memcell.png}
+		\includegraphics[scale=.10]{Square_array_memcells.png} 
+		\includegraphics[scale=.50]{ramstick.jpg}
+		
+		\btVFill
+		\href{https://en.wikipedia.org/wiki/Memory_cell_(computing)}{Wikipedia - Memory Cell} \\
+		\href{https://en.wikipedia.org/wiki/Semiconductor_memory}{Wikipedia - Semiconductor Memory}
+		\href{https://en.wikipedia.org/wiki/Random-access_memory}{Wikipedia - RAM}
+
+	\end{frame}
+
+	% Section III - Frame III
+	\begin{frame}[containsverbatim] \small
+	\frametitle{\sectiontitleIII}
+
+	\underline{The Assignment Operator} \vspace{5mm} \\
+
+	\begin{lstlisting}
+	
+		val_A =  53214;
+	
+		val_B = 0;
+	
+	\end{lstlisting}
+	
+	\begin{itemize}
+		\item In C++ and many other programming languages, variables are assigned a value using the equals sign. This is called {\BL assignment}.
+		\item Typically the value in the variable can be changed, or re-assigned. 
+		
+	\end{itemize}
+	
+	
 	\end{frame}
 
 
@@ -103,18 +289,36 @@
 		\frametitle{\sectiontitleIV}    
 		
 		Question: \vspace{5mm}\\ What is the maximum number of rupees that you can hold in the original {\it Legend of Zelda} video game? 
-		\vspace{50mm}
-
-	\end{frame}
-
-	% Section IV - Frame I
-	\begin{frame}[label=sectionIV] \small
-		\frametitle{\sectiontitleIV}    
+		\vspace{25mm}
 		
 		Answer:
-		
+
 	\end{frame}
 
+% Section V
+\section{\sectiontitleV}	
+	% Section V - Frame I
+	\begin{frame}[label=sectionV,containsverbatim] \small
+		\frametitle{\sectiontitleV}    
+		
+		\begin{lstlisting}
+
+// Variables and Assigment - C++ - June 7, 2021
+
+#include <iostream>
+
+int main()
+{
+	int val = 56 ;
+	
+	std::cout<<"The value is: "<<val;
+	
+	return 0;
+}
+		
+		\end{lstlisting}
+
+	\end{frame}
 
 \end{document}
 
