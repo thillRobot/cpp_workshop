@@ -9,34 +9,27 @@
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\slideentry {1}{0}{2}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {1}{0}{3}{5/5}{}{0}}
+\headcommand {\beamer@sectionpages {3}{4}}
+\headcommand {\beamer@subsectionpages {3}{4}}
+\headcommand {\sectionentry {2}{Arithmetic Operators}{5}{Arithmetic Operators}{0}}
+\headcommand {\slideentry {2}{0}{1}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@sectionpages {3}{5}}
-\headcommand {\beamer@subsectionpages {3}{5}}
-\headcommand {\sectionentry {2}{Arithmetic Operators}{6}{Arithmetic Operators}{0}}
-\headcommand {\slideentry {2}{0}{1}{6/6}{}{0}}
+\headcommand {\slideentry {2}{0}{2}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {2}{0}{2}{7/7}{}{0}}
+\headcommand {\beamer@sectionpages {5}{6}}
+\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\sectionentry {3}{Operator Precedence}{7}{Operator Precedence}{0}}
+\headcommand {\slideentry {3}{0}{1}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@sectionpages {6}{7}}
-\headcommand {\beamer@subsectionpages {6}{7}}
-\headcommand {\sectionentry {3}{Operator Precedence}{8}{Operator Precedence}{0}}
-\headcommand {\slideentry {3}{0}{1}{8/8}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {3}{0}{2}{9/9}{}{0}}
+\headcommand {\beamer@sectionpages {7}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\sectionentry {4}{What is an Expression?}{9}{What is an Expression?}{0}}
+\headcommand {\slideentry {4}{0}{1}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@sectionpages {8}{9}}
-\headcommand {\beamer@subsectionpages {8}{9}}
-\headcommand {\sectionentry {4}{---}{10}{---}{0}}
-\headcommand {\slideentry {4}{0}{1}{10/10}{}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@sectionpages {10}{10}}
-\headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\sectionentry {5}{Tutorial 2 - Quadratic Equation - Solution}{11}{Tutorial 2 - Quadratic Equation - Solution}{0}}
-\headcommand {\slideentry {5}{0}{1}{11/11}{}{0}}
-\headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\beamer@sectionpages {11}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\beamer@partpages {1}{9}}
+\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\beamer@sectionpages {9}{9}}
+\headcommand {\beamer@documentpages {9}}
+\headcommand {\gdef \inserttotalframenumber {9}}
