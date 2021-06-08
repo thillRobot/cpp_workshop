@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2021.3.1)  7 JUN 2021 07:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2021.3.1)  8 JUN 2021 06:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1885,30 +1885,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
-
- []
-
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+
+ []
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./tutorial2_quadratic_equation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 156.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 156.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 34429 strings out of 493007
- 640676 string characters out of 6136720
+ 34437 strings out of 493007
+ 640740 string characters out of 6136720
  714212 words of memory out of 5000000
- 37927 multiletter control sequences out of 15000+600000
+ 37935 multiletter control sequences out of 15000+600000
  568110 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,6n,69p,10377b,1359s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tutorial2_quadratic_equation.pdf (3 pages).
+Output written on tutorial2_quadratic_equation.pdf (4 pages).

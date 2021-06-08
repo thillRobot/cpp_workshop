@@ -121,6 +121,34 @@ int main() // the main function
 
 	\end{enumerate}
 
+\newpage
+\item[\textbf{\underline{Solution Code:}}] \hfill \vspace{0mm}
+
+\begin{lstlisting}
+// Variables and Assignment - GSET - Summer 2021 
+
+#include <iostream> // inlcude the IO library
+#include <math.h> // inlcude the math library
+
+int main()
+{
+
+	float a2,a1,a0,x1,x2; // initialize the variables
+	
+	a2 = 1;
+	a1 = -12;
+	a0 = 34;
+	
+	x1= (-a1+sqrt(pow(a1,2)-4*a2*a0))/(2*a2); // calculate the positive root
+	
+	x2= (-a1-sqrt(pow(a1,2)-4*a2*a0))/(2*a2); // calculate the nega5tive root
+	
+	std::cout<<"The roots are : "<<x1<<","<<x2<<std::endl;
+	
+	return 0;
+}
+\end{lstlisting}
+
 \item[\textbf{\underline{Tutorial Complete:}}] \hfill \vspace{3mm}\\ 
 	Congratulations, after completing {\it Tutorial 2 - Quadratic Equation}, you have begun learning to program in C++! You are now ready to start learning about more complex data structures and program flow. \\
 

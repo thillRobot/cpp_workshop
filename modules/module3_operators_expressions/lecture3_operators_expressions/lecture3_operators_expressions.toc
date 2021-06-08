@@ -2,3 +2,4 @@
 \beamer@sectionintoc {2}{Arithmetic Operators}{5}{0}{2}
 \beamer@sectionintoc {3}{Operator Precedence}{7}{0}{3}
 \beamer@sectionintoc {4}{What is an Expression?}{9}{0}{4}
+\beamer@sectionintoc {5}{Tutorial 2 - Quadratic Equation - Solution}{10}{0}{5}
