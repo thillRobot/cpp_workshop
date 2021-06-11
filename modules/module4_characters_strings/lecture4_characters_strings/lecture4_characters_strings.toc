@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Others types of Data}{3}{0}{1}
+\beamer@sectionintoc {2}{The char and small integer type}{5}{0}{2}
+\beamer@sectionintoc {3}{The ASCII Table}{7}{0}{3}
+\beamer@sectionintoc {4}{C++ Example}{8}{0}{4}
+\beamer@sectionintoc {5}{Tutorial 4 - asdf }{9}{0}{5}

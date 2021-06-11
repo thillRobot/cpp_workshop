@@ -1,0 +1,185 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+% Tennessee Technological University
+% ENGR1120-021 - GSET - Summer 2021
+% Tristan Hill - June 11, 2021
+% Module 4 - Characters and Strings
+% Lecture 4 
+
+\documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
+
+\usepackage{/home/thill/Documents/lectures/cpp_workshop/modules/cpp_lectures}
+
+\newcommand{\MNUM}{4\hspace{2mm}} % Module number
+\newcommand{\TNUM}{---\hspace{2mm}} % Topic number - single topic for now
+\newcommand{\moduletitle}{Characters and Strings} % Titles and Stuff
+%\newcommand{\topictitle}{---} 
+
+\newcommand{\sectiontitleI}{Others types of Data} % More Titles and Stuff
+\newcommand{\sectiontitleII}{The char and small integer type}
+\newcommand{\sectiontitleIII}{The ASCII Table}
+\newcommand{\sectiontitleIV}{C++ Example}
+\newcommand{\sectiontitleV}{Tutorial 4 - asdf }
+
+\newcommand{\btVFill}{\vskip0pt plus 1filll}
+
+\setbeamercolor{title in head/foot}{fg=TTUgold} % this needs work...
+
+\title{GSET - Programming with Mr. Hill}
+\author{Tristan Hill\vspc \hspc Tennessee Technological University \hspc}
+\date{Summer 2021}
+
+\begin{document}
+
+\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+
+\frame{\titlepage \center\begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
+
+
+% Section 0 - Outline
+\frame{
+	
+	\large \textbf{Module \MNUM - \moduletitle} \vspace{3mm}\\
+	
+	\begin{itemize}
+	
+		\item \hyperlink{sectionI}{\sectiontitleI} \vspc % Section I
+		\item \hyperlink{sectionII}{\sectiontitleII} \vspc % Section II
+		\item \hyperlink{sectionIII}{\sectiontitleIII} \vspc %Section III
+		\item \hyperlink{sectionIV}{\sectiontitleIV} \vspc %Section IV	
+		\item \hyperlink{sectionV}{\sectiontitleV} \vspc %Section V
+	
+	\end{itemize}
+
+}
+
+
+% Section I
+\section{\sectiontitleI}
+
+	% Section I - Frame I
+	\begin{frame}[label=sectionI,containsverbatim] \small
+		\frametitle{\sectiontitleI}
+		We have used {\PN scalar} variables in the previous exercises. Have you used this term before?
+	
+	\end{frame}
+
+	% Section I - Frame II
+	\begin{frame} \small
+		\frametitle{\sectiontitleI}
+	
+			Now, we are going to learn to use array variables in C++. \vspace{5mm}\\
+			
+			\begin{itemize}
+			
+			\item What is a array? \vspace{5mm} \\
+			
+			\item Why are arrays important in computer programming? \vspace{5mm}\\
+			
+				\begin{itemize}
+				
+					\item 
+					
+					\item 
+					
+					\item 
+				
+				\end{itemize}
+	
+			\end{itemize}
+	
+		\btVFill
+		\tiny{some reference}	
+	\end{frame}
+
+
+% Section II
+\section{\sectiontitleII}
+
+	% Section II - Frame I
+	\begin{frame}[label=sectionII,containsverbatim] \small
+	\frametitle{\sectiontitleII}
+	
+	Variables are stored in the \href{https://en.wikipedia.org/wiki/Random-access_memory}{RAM (Random Access Memory)}. Each variable has a {\BL name}, a {\GR value}, and a {\PR memory address}.  \vspace{5mm}\\
+	
+	\begin{multicols}{2}
+		
+		\begin{lstlisting}
+		
+		...
+		
+		int x;
+		float our_value=43.5;
+		
+		
+		
+		...			
+		
+		\end{lstlisting}
+		
+		\renewcommand*{\arraystretch}{1.5}
+		\begin{tabular}{c|c|c} 
+			Name&Value&Memory Address\\ \hline
+			& & \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+		\end{tabular}
+		
+			
+		
+	\end{multicols}
+	
+	\btVFill
+	
+	%\tiny{reference: \href{https://www.cplusplus.com/doc/tutorial/operators/}{cplusplus.com} } 	
+	
+\end{frame}
+
+	% Section II - Frame II
+	\begin{frame} \small
+		\frametitle{\sectiontitleII}
+		
+		
+		\btVFill
+		%\tiny{ref: \href{some link}{some text}}
+	\end{frame}	
+
+
+% Section III
+\section{\sectiontitleIII}
+
+	% Section III - Frame I
+	\begin{frame}[label=sectionIII] \small
+		\frametitle{\sectiontitleIII}
+	
+		
+	\end{frame}
+
+
+% Section IV
+\section{\sectiontitleIV}	
+	% Section IV - Frame I
+	\begin{frame}[label=sectionIV] \small
+		\frametitle{\sectiontitleIV}    
+	
+
+		\btVFill
+		%\tiny{ref: \href{some link}{some text}} 
+	\end{frame}
+
+% Section V
+\section{\sectiontitleV}	
+	% Section V - Frame I
+	\begin{frame}[label=sectionV,containsverbatim] \small
+	\frametitle{\sectiontitleV}    
+	
+
+	\end{frame}
+
+
+\end{document}
+
