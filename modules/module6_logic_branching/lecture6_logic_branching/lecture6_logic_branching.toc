@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Types of Sentences}{3}{0}{1}
+\beamer@sectionintoc {2}{Logical Statements }{4}{0}{2}
+\beamer@sectionintoc {3}{Relational Operators}{6}{0}{3}
+\beamer@sectionintoc {4}{Branching and Program Flow}{7}{0}{4}
+\beamer@sectionintoc {5}{Logical Operators and Compound Statements}{9}{0}{5}

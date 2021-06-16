@@ -16,11 +16,11 @@
 \newcommand{\moduletitle}{Characters and Strings} % Titles and Stuff
 %\newcommand{\topictitle}{---} 
 
-\newcommand{\sectiontitleI}{Others types of Data} % More Titles and Stuff
-\newcommand{\sectiontitleII}{The char and small integer type}
-\newcommand{\sectiontitleIII}{The ASCII Table}
+\newcommand{\sectiontitleI}{The char and small integer type} % More Titles and Stuff
+\newcommand{\sectiontitleII}{The ASCII Table}
+\newcommand{\sectiontitleIII}{Special Characters: Escape Sequences}
 \newcommand{\sectiontitleIV}{C++ Example}
-\newcommand{\sectiontitleV}{Tutorial 4 - asdf }
+\newcommand{\sectiontitleV}{Tutorial 4 -  }
 
 \newcommand{\btVFill}{\vskip0pt plus 1filll}
 
@@ -61,92 +61,61 @@
 	% Section I - Frame I
 	\begin{frame}[label=sectionI,containsverbatim] \small
 		\frametitle{\sectiontitleI}
-		We have used {\PN scalar} variables in the previous exercises. Have you used this term before?
+		We have stored {\PN numeric} values with variables in the previous exercises.\vspace{10mm} \\ What other type of data is necessary in computer programming?
 	
 	\end{frame}
 
 	% Section I - Frame II
-	\begin{frame} \small
-		\frametitle{\sectiontitleI}
+	\begin{frame}[label=sectionI,containsverbatim] \small
+	\frametitle{\sectiontitleI}
 	
-			Now, we are going to learn to use array variables in C++. \vspace{5mm}\\
-			
-			\begin{itemize}
-			
-			\item What is a array? \vspace{5mm} \\
-			
-			\item Why are arrays important in computer programming? \vspace{5mm}\\
-			
-				\begin{itemize}
-				
-					\item 
-					
-					\item 
-					
-					\item 
-				
-				\end{itemize}
 	
-			\end{itemize}
 	
-		\btVFill
-		\tiny{some reference}	
-	\end{frame}
+	\begin{lstlisting}
+	
+	...
+	
+	char c;
+	
+	
+	
+	
+	...			
+	
+	\end{lstlisting}
+	
+	
+	
+	\btVFill
+	
+	%\tiny{reference: \href{https://www.cplusplus.com/doc/tutorial/operators/}{cplusplus.com} } 
 
+
+	\end{frame}
 
 % Section II
 \section{\sectiontitleII}
 
 	% Section II - Frame I
-	\begin{frame}[label=sectionII,containsverbatim] \small
+
+	\begin{frame}[label=sectionII] \small
 	\frametitle{\sectiontitleII}
 	
-	Variables are stored in the \href{https://en.wikipedia.org/wiki/Random-access_memory}{RAM (Random Access Memory)}. Each variable has a {\BL name}, a {\GR value}, and a {\PR memory address}.  \vspace{5mm}\\
-	
-	\begin{multicols}{2}
-		
-		\begin{lstlisting}
-		
-		...
-		
-		int x;
-		float our_value=43.5;
-		
-		
-		
-		...			
-		
-		\end{lstlisting}
-		
-		\renewcommand*{\arraystretch}{1.5}
-		\begin{tabular}{c|c|c} 
-			Name&Value&Memory Address\\ \hline
-			& & \\ \hline
-			& & \\ \hline
-			& & \\ \hline
-			& & \\ \hline
-			& & \\ \hline
-			& & \\ \hline
-		\end{tabular}
-		
-			
-		
-	\end{multicols}
+	\includegraphics[scale=.35]{asciifull.png}
 	
 	\btVFill
+	\tiny{table: \href{http://www.asciitable.com/}{asciitable.com}}
+	\end{frame}
 	
-	%\tiny{reference: \href{https://www.cplusplus.com/doc/tutorial/operators/}{cplusplus.com} } 	
-	
-\end{frame}
-
 	% Section II - Frame II
-	\begin{frame} \small
-		\frametitle{\sectiontitleII}
-		
-		
-		\btVFill
-		%\tiny{ref: \href{some link}{some text}}
-	\end{frame}	
+	\begin{frame}[label=sectionII] \small
+	\frametitle{\sectiontitleII}
+	
+	\includegraphics[scale=.35]{asciiextended.png}
+	
+	\btVFill
+	\tiny{table: \href{http://www.asciitable.com/}{asciitable.com}}
+	\end{frame}
 
 
 % Section III
@@ -156,8 +125,46 @@
 	\begin{frame}[label=sectionIII] \small
 		\frametitle{\sectiontitleIII}
 	
+		Some characters do not appear in the same way as the others.  \vspace{1mm} \\
+	
+			\renewcommand*{\arraystretch}{1.5}
+		\begin{tabular}{c|c|c|c|c} 
+			Character Name&ASCII&C++&Dec&Hex\\ \hline
+			newline& NL& \textbackslash n& 10 & 0xA\\ \hline
+			horiz. tab& HT& \textbackslash t & 9 & 0x9\\ \hline
+			backspace& BS& \textbackslash b & 8 & 0x8\\ \hline
+			carriage return & CR & \textbackslash r& 13& 0xD\\ \hline
+			alert& BEL& \textbackslash a & 7 & 0x7\\ \hline
+			single quote& ' & \textbackslash '& 39& 0x27\\ \hline
+			double quote& "& \textbackslash "& 34& 0z22\\ \hline
+	
+		\end{tabular}
 		
+		\btVFill
+		\tiny{ref: C++ Primer Plus - pg. 70}
 	\end{frame}
+
+	% Section III - Frame II
+	\begin{frame}[label=sectionIII,containsverbatim] \small
+	\frametitle{\sectiontitleIII}
+	
+		Now for some fun.
+	
+		\begin{lstlisting}
+		
+		...
+		
+		cout<<"\a";
+		
+		...
+		
+		
+		\end{lstlisting}
+	
+		\btVFill
+		\tiny{table: \href{http://www.asciitable.com/}{asciitable.com}}
+	\end{frame}
+
 
 
 % Section IV

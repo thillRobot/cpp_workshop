@@ -1,0 +1,234 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+% Tennessee Technological University
+% ENGR1120-021 - GSET - Summer 2021
+% Tristan Hill - June 16, 2021
+% Module 6 - Logic and Branching
+% Lecture 6 
+
+\documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
+
+\usepackage{/home/thill/Documents/lectures/cpp_workshop/modules/cpp_lectures}
+
+\newcommand{\MNUM}{6\hspace{2mm}} % Module number
+\newcommand{\TNUM}{---\hspace{2mm}} % Topic number - single topic for now
+\newcommand{\moduletitle}{Logic and Branching} % Titles and Stuff
+%\newcommand{\topictitle}{---} 
+
+\newcommand{\sectiontitleI}{Types of Sentences} % More Titles and Stuff
+\newcommand{\sectiontitleII}{Logical Statements }
+\newcommand{\sectiontitleIII}{Relational Operators}
+\newcommand{\sectiontitleIV}{Branching and Program Flow}
+\newcommand{\sectiontitleV}{Logical Operators and Compound Statements}
+
+\newcommand{\btVFill}{\vskip0pt plus 1filll}
+
+\setbeamercolor{title in head/foot}{fg=TTUgold} % this needs work...
+
+\title{GSET - Programming with Mr. Hill}
+\author{Tristan Hill\vspc \hspc Tennessee Technological University \hspc}
+\date{Summer 2021}
+
+\begin{document}
+
+\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+
+\frame{\titlepage \center\begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
+
+
+% Section 0 - Outline
+\frame{
+	
+	\large \textbf{Module \MNUM - \moduletitle} \vspace{3mm}\\
+	
+	\begin{itemize}
+	
+		\item \hyperlink{sectionI}{\sectiontitleI} \vspc % Section I
+		\item \hyperlink{sectionII}{\sectiontitleII} \vspc % Section II
+		\item \hyperlink{sectionIII}{\sectiontitleIII} \vspc %Section III
+		\item \hyperlink{sectionIV}{\sectiontitleIV} \vspc %Section IV	
+		\item \hyperlink{sectionV}{\sectiontitleV} \vspc %Section V
+	
+	\end{itemize}
+
+}
+
+
+% Section I
+\section{\sectiontitleI}
+
+	% Section I - Frame I
+	\begin{frame}[label=sectionI,containsverbatim] \small
+		\frametitle{\sectiontitleI}
+		What are the four types of sentences?
+		
+		\begin{enumerate}
+			
+			\item 
+			 
+			\item
+			
+			\item
+			
+			\item
+			
+		\end{enumerate}
+	
+	We are going to discuss one of these in detail.
+	
+	\end{frame}
+
+
+% Section II
+\section{\sectiontitleII}
+
+	% Section II - Frame I
+	\begin{frame}[label=sectionII,containsverbatim] \small
+		\frametitle{\sectiontitleII}
+		
+A {\PR logical statement} is a statement that can be evaluated as {\GR true} or {\RD false}. \vspcc
+
+Why are we discussing this? How are logical statements used in programming? \vspcc
+
+
+		
+	\end{frame}
+
+	% Section II - Frame II
+	\begin{frame} \small
+		\frametitle{\sectiontitleII}
+		
+		A Classic Riddle: Knights and Knaves \vspccc
+		
+		{\it John and Bill are standing at a fork in the road. John is standing in front of the left road, and Bill is standing in front of the right road. One of them is a knight and the other a knave, but you don't know which. You also know that one road leads to Death, and the other leads to Freedom. By asking one yes–no question, can you determine the road to Freedom?} 
+		\btVFill
+		
+		\tiny{reference: \href{https://en.wikipedia.org/wiki/Knights_and_Knaves}{wikipedia} } 	
+
+	\end{frame}	
+
+
+% Section III
+\section{\sectiontitleIII}
+
+	\begin{frame}[label=sectionIII,containsverbatim] \small
+	\frametitle{\sectiontitleIII}
+	
+	If you studied mathematics, then you are familiar with these operators.  \vspace{5mm}\\
+			
+		\renewcommand*{\arraystretch}{1.5}
+		\begin{tabular}{c|c|c} 
+			Name&Symbol&Example\\ \hline
+			greater than&$>$ & \\ \hline
+			less than&$<$ & \\ \hline
+			greater than or equal to&$>=$ & \\ \hline
+			less than or equal to&$<=$ & \\ \hline
+			is equals to&$==$ & \\ \hline
+			not equal to&$!=$ & \\ \hline
+		\end{tabular}
+		
+	
+	\btVFill
+	
+	\tiny{reference: \href{https://www.cplusplus.com/doc/tutorial/operators/}{cplusplus.com} } 	
+	
+	\end{frame}
+
+
+
+% Section IV
+\section{\sectiontitleIV}	
+	% Section IV - Frame I
+	\begin{frame}[label=sectionIV,containsverbatim] \small
+		\frametitle{\sectiontitleIV}    
+	
+		\begin{lstlisting}
+		
+		...
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		...			
+		
+		\end{lstlisting}
+		
+
+		\btVFill
+		%\tiny{ref: \href{some link}{some text}} 
+	\end{frame}
+
+		% Section IV - Frame II
+	\begin{frame}[label=sectionIV,containsverbatim] \small
+	\frametitle{\sectiontitleIV}    
+	
+	Commonly Used Flowchart Symbols
+	
+	\begin{itemize}
+		\item Flowline
+		\item Terminal
+		\item Process
+		\item Decision
+		\item Input/Output
+		\item and many more ... 
+		
+	\end{itemize}
+
+	{\it Flowcharting is a tool for brainstorming and it can be used for communication and education. A flowchart is not a program. }
+	
+	
+	\btVFill
+	\tiny{ref: \href{https://en.wikipedia.org/wiki/Flowchart}{wikipedia}} 
+\end{frame}
+
+% Section V
+\section{\sectiontitleV}	
+	% Section V - Frame I
+	\begin{frame}[label=sectionV,containsverbatim] \small
+	\frametitle{\sectiontitleV}    
+	
+	If you studied programming, then you are probably familiar with these operators.  \vspace{5mm}\\
+	
+	\renewcommand*{\arraystretch}{1.5}
+	\begin{tabular}{c|c|c} 
+		Name&Symbol&Example\\ \hline
+		conjunction&$\wedge$ & \\ \hline
+		disjunction&$\vee$ & \\ \hline
+		negation&$\sim$& \\ \hline
+
+	\end{tabular}
+
+	\end{frame}
+	
+		% Section V - Frame I
+	\begin{frame}[label=sectionV,containsverbatim] \small
+	\frametitle{\sectiontitleV}    
+	
+	Compound Statements and Truth Tables.  \vspace{5mm}\\
+	
+	\renewcommand*{\arraystretch}{1.5}
+	\begin{tabular}{|c|c|c|c|c|} \hline
+		---&---& Cmpd. Stmt. C& Cmpd. Stmt. D& Cmpd. Stmt. E \\ \hline
+		Stmt. A&Stmt. B& & & \\ \hline
+		& & & & \\ \hline
+		& & & & \\ \hline
+		& & & & \\ \hline
+		& & & & \\ \hline 
+	
+	\end{tabular}
+
+	\vspace*{3mm}
+	Hint: Use a truth table to solve the Knights and Knaves riddle.
+
+	\end{frame}
+
+
+\end{document}
+
