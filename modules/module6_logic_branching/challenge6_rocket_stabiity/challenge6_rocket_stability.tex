@@ -2,8 +2,8 @@
 % !TEX encoding = UTF-8 Unicode
 
 % GSET Summer 2021 - Tennessee Technological University
-% Tristan Hill - June 11, 2021
-% Turtorial 5 - Your Name in Ascii
+% Tristan Hill - June 16, 2021
+% Challenge 6 - Rocket Stability
 
 \documentclass[12pt]{article}
 
@@ -11,9 +11,9 @@
 \usepackage{/home/thill/Documents/lectures/cpp_workshop/modules/cpp_tutorial} 
 
 % Title and Misc
-\newcommand{\MNUM}{4} %Module Number
+\newcommand{\MNUM}{6} %Module Number
 \newcommand{\MNAME}{Introduction to C++} %Module Name
-\newcommand{\TNAME}{Your Name in ASCII} %Tutorial Name
+\newcommand{\TNAME}{Rocket Stability} %Tutorial Name
 \pagestyle{myheadings}
 \markright{{\large GSET - Programming with Mr. Hill}}
 
@@ -23,7 +23,7 @@
 
 \begin{center}
    {\bf \large GSET - Programming with Mr. Hill - Summer 2021} \vspace{5mm}\\
-   {\bf \Large \MNAME \hspc -  Tutorial\hspc\MNUM\hspc - \TNAME}\vspace{3mm}\\
+   {\bf \Large \MNAME \hspc -  Challenge\hspc\MNUM\hspc - \TNAME}\vspace{3mm}\\
    
 \end{center}
 
@@ -32,7 +32,7 @@
 \begin{description}[labelindent=1cm]
 	
 	\item[\textbf{\underline{Overview:}}] \hfill \vspace{3mm}\\
-	We are going to write a C++ program to display your name in ASCII characters on the screen. 
+	We are going to write a C++ program to perform the stability analysis required for the design of a model rocket. This is one way you can help the mission!
 	
 	\item[\textbf{\underline{System Requirements:}}] \hfill \vspace{0mm}
 
@@ -45,12 +45,16 @@
 	
 	\begin{itemize}
 
-		\item Given: Your name in character format.
+		\item Given: The physical properties of the rocket including the dimensions and mass of the individual components 
 		
-		\item Find: Your name in ASCII decimal and hex codes.
+		\item Find: The center of gravity and center or pressure of the proposed design. Also if the rocket is stable, unstable, or quasi-stable.  
 		 
 	\end{itemize}
 
+\includegraphics[scale=.3]{rocket_stability.png}
+
+
+\newpage
 \item[\textbf{\underline{Program Minimum Requirements:}}] \hfill \vspace{0mm}
 
 The program should accomplish the following tasks. 
@@ -58,70 +62,68 @@ The program should accomplish the following tasks.
 
 \begin{itemize}
 
-	\item Your name should be stored as an array of characters.
+	\item The inputs (rocket parameters) should be stored in your program.
 
-	\item Your program should print your name to the screen in character format.
+	\item Your program should calculate the center of gravity using the method provided.
 	
-	\item Your program should print your name to the screen in ASCII decimal code format.
+	\item Your program should calculate the center of pressure using the method provided.
 	
-	\item Your program should print your name to the screen in ASCII hex code format.
+	\item Your program should determine whether the input design is stable using the criterion provided.
 
 \end{itemize}	 
 	Optional Advanced Features:
 \begin{itemize}
-	\item Your name should be read from the user during program execution
+	\item The possible range for each input should be stored as an array in your program.
 		
-	\item The program should also include your last name and possibly other info.
-    
-    \item Your program should make a cool beeping sound when is it complete.
-    
-    \item Your program should make return the length (number or characters) in your name.
+	\item there are so many things you could do!
     
 \end{itemize}	
-\newpage
-
-\item[\textbf{\underline{Example Code:}}] \hfill \vspace{0mm}
-\begin{enumerate}
-    \item This is the C style way to output text.
-	%\begin{minted}{cpp}
-	\begin{lstlisting}
-
-// Arrays of Characters - GSET - Summer 2021 
-	
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-
-	char myname[]={"Tristan"};
-	
-	char c = 'T';
-	
-	cout<<"Hello World\n";
-	
-	cout<<myname<<endl; 
-	
-	cout<<myname[1]<<endl;
-	
-	cout<<(int)c<<"\a" <<endl; 
-	
-	return 0;
-}
 
 
-	\end{lstlisting}
-	%\end{minted}
-		
-\end{enumerate}
+%\item[\textbf{\underline{Example Code:}}] \hfill \vspace{0mm}
+%\begin{enumerate}
+%    \item This is the C style way to output text.
+%	%\begin{minted}{cpp}
+%	\begin{lstlisting}
+%
+%// Arrays of Characters - GSET - Summer 2021 
+%	
+%#include <iostream>
+%
+%using namespace std;
+%
+%int main()
+%{
+%
+%	char myname[]={"Tristan"};
+%	
+%	char c = 'T';
+%	
+%	cout<<"Hello World\n";
+%	
+%	cout<<myname<<endl; 
+%	
+%	cout<<myname[1]<<endl;
+%	
+%	cout<<(int)c<<"\a" <<endl; 
+%	
+%	return 0;
+%}
+%
+%
+%	\end{lstlisting}
+%	%\end{minted}
+%		
+%\end{enumerate}
 
 	\item[\textbf{\underline{Part 3 - Testing:}}] \hfill \vspace{0mm}
 	\begin{enumerate}
 	
-		\item Complete the C++ code to the solve the problem described. \\\\
+		\item Develop a  C++ program to the solve the problem described. \\\\
 		
-		\item Test your code with different inputs. Is the answer correct? How do you know? Are there certain inputs that do not work? \\\\
+		\item Determine a reasonable range for each of the possible inputs. We will discuss this part as a class. \\
+		
+		\item Use the program you have developed to choose an optimal rocket design. Record the values you chose and document the process you used to determine these values.  \\\\
 		
 	
 		\item Save your code with the download button or use copy and paste. You can view and edit the code in any text editor. Also, save a copy of the program output for your tutorial summary. \\\\
@@ -140,7 +142,7 @@ int main()
 %
 
 \newpage
-\item[\textbf{\underline{Tutorial Summary:}}] \hfill \vspace{3mm}\\ 
+\item[\textbf{\underline{Challenge Summary:}}] \hfill \vspace{3mm}\\ 
 Write a brief summary of what you accomplished and what you struggled with the most. 
 
 Include the following items in the summary:
