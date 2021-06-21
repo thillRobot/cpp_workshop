@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Repetition and Programming}{3}{0}{1}
+\beamer@sectionintoc {2}{Types of Loops }{4}{0}{2}
+\beamer@sectionintoc {3}{Repetition and Program Flow}{5}{0}{3}
+\beamer@sectionintoc {4}{Nested Structures}{6}{0}{4}
+\beamer@sectionintoc {5}{An example in C++}{8}{0}{5}
