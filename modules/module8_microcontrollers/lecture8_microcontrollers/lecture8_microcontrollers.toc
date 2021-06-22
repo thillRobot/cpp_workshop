@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{What is a microcontroller?}{3}{0}{1}
+\beamer@sectionintoc {2}{MCU applications}{4}{0}{2}
+\beamer@sectionintoc {3}{System on Chip}{5}{0}{3}
+\beamer@sectionintoc {4}{Capabilities and Resources}{8}{0}{4}
+\beamer@sectionintoc {5}{Programming for Microcontrollers}{10}{0}{5}
